@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+  content="width=device-width, initial-scale=1.0">
+  <title>GDP Productivity Dashboard</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='dashboard.css') }}">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="container">
+      <h1>GDP Productivity Analysis</h1>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/logout">Logout</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <section class="dashboard-section">
+      <h2>Welcome to the Dashboard</h2>
+      <p>Analyze the GDP productivity of Indian cities with the interactive dashboard below.</p>
+      
+      <!-- Placeholder for Power BI Dashboard -->
+      <iframe width="100%" height="600px" 
+          src="https://app.powerbi.com/reportEmbed?reportId=f8c86ab2-2827-42c5-b56e-67271b719223&autoAuth=true&ctid=293dcaca-d44e-427b-8f13-b1c9425ad2b1"
+          frameborder="0" allowfullscreen="true"></iframe>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2025 GDP Productivity of Indian Cities. All rights reserved.</p>
+  </footer>
+</body>
+</html>
