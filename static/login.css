@@ -4,10 +4,14 @@ body {
   padding: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #3db8e444; /* Light gray background */
 =======
   background-color: #1926d1; /* Light gray background */
 >>>>>>> 1f6e356 (init)
+=======
+  background-color: #3db8e444; /* Light gray background */
+>>>>>>> c43bdd4 (init)
   color: #333;
   overflow-x: hidden;
   line-height: 1.6;
@@ -33,10 +37,14 @@ a {
 
 a:hover {
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #00eeff;
 =======
   color: #007bff;
 >>>>>>> 1f6e356 (init)
+=======
+  color: #00eeff;
+>>>>>>> c43bdd4 (init)
 }
 
 /* Header Styles */
