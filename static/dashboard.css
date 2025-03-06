@@ -33,9 +33,15 @@ a:hover {
 
 /* Header Styles */
 header {
+<<<<<<< HEAD
   background-color: #34495e;
   color: #fff;
   padding: 20px 0;
+=======
+  background-color: #34495e; /* Dark blue-gray */
+  color: #fff;
+  padding: 20px 0; /* Increased padding to make the header bigger */
+>>>>>>> 1f6e356 (init)
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
   position: sticky;
   top: 0;
@@ -52,6 +58,7 @@ header .container {
 }
 
 header h1 {
+<<<<<<< HEAD
   font-size: 2.2rem;
   font-weight: 700;
   letter-spacing: -1px;
@@ -59,11 +66,25 @@ header h1 {
   margin: 0;
   flex: 1;
   text-align: left;
+=======
+  font-size: 2.2rem; /* Increased font size for the title */
+  font-weight: 700;
+  letter-spacing: -1px;
+  color: #ecf0f1; /* Light gray for better contrast */
+  margin: 0; /* Remove default margin */
+  flex: 1; /* Allow the title to take up remaining space */
+  text-align: left; /* Align title to the left */
+>>>>>>> 1f6e356 (init)
 }
 
 nav ul {
   display: flex;
   gap: 20px;
+<<<<<<< HEAD
+=======
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+>>>>>>> 1f6e356 (init)
 }
 
 nav li {
@@ -71,13 +92,20 @@ nav li {
 }
 
 nav a {
+<<<<<<< HEAD
   color: #ecf0f1;
   font-weight: 600;
   font-size: 1.1rem;
+=======
+  color: #ecf0f1; /* Light gray for better contrast */
+  font-weight: 600;
+  font-size: 1.1rem; /* Slightly increased font size for navigation links */
+>>>>>>> 1f6e356 (init)
   transition: color 0.3s ease;
 }
 
 nav a:hover {
+<<<<<<< HEAD
   color: #e67e22;
 }
 
@@ -95,6 +123,9 @@ nav a:hover {
 .download-btn:hover {
   background-color: #ecf0f1;
   color: #34495e;
+=======
+  color: #e67e22; /* Orange hover effect */
+>>>>>>> 1f6e356 (init)
 }
 
 /* Dashboard Section */
@@ -106,19 +137,26 @@ nav a:hover {
   box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   text-align: center;
+<<<<<<< HEAD
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .dashboard-section:hover {
   transform: translateY(-10px);
   box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+=======
+>>>>>>> 1f6e356 (init)
 }
 
 .dashboard-section h2 {
   font-size: 2.5rem;
   margin-bottom: 20px;
   font-weight: 700;
+<<<<<<< HEAD
   color: #34495e;
+=======
+  color: #34495e; /* Dark blue-gray */
+>>>>>>> 1f6e356 (init)
 }
 
 .dashboard-section p {
@@ -133,6 +171,7 @@ nav a:hover {
   box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
 }
 
+<<<<<<< HEAD
 /* Filter Section Styles */
 .filter-section {
   margin-bottom: 30px;
@@ -184,6 +223,11 @@ nav a:hover {
 /* Footer Styles */
 footer {
   background-color: #34495e;
+=======
+/* Footer Styles */
+footer {
+  background-color: #34495e; /* Dark blue-gray */
+>>>>>>> 1f6e356 (init)
   color: #fff;
   padding: 30px 0;
   text-align: center;
@@ -197,7 +241,11 @@ footer p {
 /* Responsive Design */
 @media (max-width: 768px) {
   header h1 {
+<<<<<<< HEAD
     font-size: 1.8rem;
+=======
+    font-size: 1.8rem; /* Adjusted font size for smaller screens */
+>>>>>>> 1f6e356 (init)
   }
 
   nav ul {
@@ -218,6 +266,12 @@ footer p {
   }
 
   .dashboard-section iframe {
+<<<<<<< HEAD
     height: 400px;
   }
 }
+=======
+    height: 400px; /* Adjust iframe height for smaller screens */
+  }
+}
+>>>>>>> 1f6e356 (init)

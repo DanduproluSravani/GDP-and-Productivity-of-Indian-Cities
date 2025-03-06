@@ -3,7 +3,11 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+<<<<<<< HEAD
   background-color: #7b61ee15; /* Blue background */
+=======
+  background-color: #184deb; /* Blue background */
+>>>>>>> 1f6e356 (init)
   color: #333333;
   overflow-x: hidden;
   line-height: 1.6;
